@@ -1,0 +1,189 @@
+/* body */
+body, button, input, select, textarea {
+    font: 12px / 1.5 tahoma, arial, 宋 体;
+    word-wrap: break-word;
+}
+
+/* set width */
+#wrap, html, body, #head_wrap, #nav_wrap, #main_wrap {
+    width: 100%;
+    background: #fff;
+}
+
+/* head */
+#head_wrap {
+    height: 230px;
+    border-bottom: 1px dashed #666;
+    background-image: url(../images/bg_coordinate.gif);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+#head {
+    width: 600px;
+    margin: 0 auto;
+    height: 200px;
+    padding: 25px 0;
+    text-align: center
+}
+
+#head div {
+    float: left;
+    display: inline;
+    text-align: center;
+}
+
+#head_left, #head_middle, #head_right {
+    width: 200px;
+    height: 200px;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+/* nav */
+#nav {
+    width: 800px;
+    margin: 0 auto;
+    height: 64px;
+    padding: 5px 10px 10px 10px;
+}
+
+/* #nav table {} */
+#nav ul {
+    padding: 0;
+    margin: 0;
+    height: 64px;
+}
+
+#nav ul li {
+    float: left;
+    padding: 0 5px 0 5px;
+}
+
+/* main */
+#main {
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid #dbdbdb;
+}
+
+#produit_list {
+    float: left;
+    display: inline;
+    width: 359px;
+    border-right: 1px solid #dfdfdf;
+    padding: 10px;
+    position: relative;
+}
+
+#produit_list_main {
+    position: absolute;
+    width: 62px;
+    left: 10px;
+}
+
+#produit_list_main ul {
+}
+
+#produit_list_main ul li {
+    margin-top: 10px;
+}
+
+#produit_list_main ul li a {
+    display: block;
+    width: 60px;
+    text-align: center;
+    height: 60px;
+    padding: 4px 0 4px 0;
+    border: 1px solid #666;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+}
+
+#produit_list_main ul li a.this {
+    border-right: 1px solid #fff;
+}
+
+#produit_list_more {
+    margin-left: 61px;
+    height: 400px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    padding: 10px;
+   /* position: relative;*/
+}
+
+#produit_list_more ul {
+    margin-bottom: 5px;
+}
+
+#produit_list_more ul li {
+    float: left;
+    display: inline;
+}
+
+#produit_list_more ul li a {
+    display: block;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+#produit_list_more ul li a.this {
+    border: 1px solid #f97b3a;
+}
+
+#produit_list_more ul.produit_list_more1 li a {
+    padding: 7px;
+}
+
+#produit_list_more ul.produit_list_more2 li a {
+    padding: 10px;
+}
+
+#produit_list_more ul.produit_list_more3 li {
+    text-align: center;
+}
+
+#produit_list_more ul.produit_list_more3 li a {
+    padding: 5px 10px 5px 5px;
+}
+
+#info_list {
+    float: right;
+    display: inline;
+    width: 400px;
+    padding: 10px;
+}
+
+#info_list table {
+    font-size: 10px;
+}
+
+#info_list table thead {
+    font-weight: bold;
+}
+
+#info_list table thead tr td {
+    line-height: 100%;
+}
+
+#info_list table tbody {
+}
+
+#info_list table tbody tr {
+}
+
+#info_list table tbody tr td {
+    height: 22px;
+}
+
+#info_list table tbody tr td.tbd {
+    border: 1px solid #666;
+}
+
+#info_list table tbody tr td input {
+    width: 60px;
+    height: 22px;
+    line-height: 22px;
+    border: 0;
+}
